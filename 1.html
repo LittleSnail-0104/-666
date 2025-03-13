@@ -6,12 +6,69 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
-        <input type="radio" name="userage" value="age1">未滿20歲
-        <input type="radio" name="userage" value="age2"checked>20~29
-        <input type="radio" name="userage" value="age3">30歲以上<br>
-        <input type="sudmit">
-        <input type="reset">
-    </form>
+     <!-- 個人資料 -->
+      <h3>請輸入個人資料</h3>
+     <label for="name">姓名：</label>
+     <input type="text" id="name" name="name" placeholder="請輸入您的姓名" required />
+     
+     <label for="address">地址：</label>
+     <input type="text" id="address" name="address" placeholder="請輸入您的地址" required />
+ 
+     <!-- 行程相關 -->
+     <h3>行程相關</h3>
+     
+     <label>可參加行程日期：(可複選)</label>
+     <div class="checkbox-group">
+       <label><input type="checkbox" name="date[]" value="midterm"> 期中考後</label>
+       <label><input type="checkbox" name="date[]" value="final"> 期末考後</label>
+       <label><input type="checkbox" name="date[]" value="summer"> 暑假期間</label>
+     </div>
+ 
+     <label>喜歡的地點是：(單選)</label>
+     <div class="radio-group">
+       <label><input type="radio" name="location" value="lake"> 游湖</label>
+       <label><input type="radio" name="location" value="forest"> 綠島</label>
+       <label><input type="radio" name="location" value="mountain"> 阿里山</label>
+       <label><input type="radio" name="location" value="101"> 台北101</label>
+     </div>
+ 
+     <label for="suggestions">其它需求或建議可以寫在此：</label>
+     <textarea id="suggestions" name="suggestions" placeholder="請輸入建議或需求..."></textarea>
+ 
+     <label for="other">其它行程建議：</label>
+     <input type="text" id="other" name="other" placeholder="請輸入其它行程建議" />
+ 
+     <!-- 送出按鈕 -->
+     <button type="submit">提交</button>
+   </form>
+ </div>
+
+ <iframe 
+    src="https://forms.gle/vcc8Naopm2HEyK5M8" 
+    width="640" 
+    height="744" 
+    frameborder="0" 
+    marginheight="0" 
+    marginwidth="0">
+</iframe>
+
+<object width="100%" height="200px" ></object>
+<object data="w.jpg" ></object>
+ 
+ <!-- 新增影片與圖片區塊 -->
+ 
+ <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGhlfocPN4/aTueqVaVA_cAx1fQeMGGWw/watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+魏子翔 設計的 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGhlfocPN4&#x2F;aTueqVaVA_cAx1fQeMGGWw&#x2F;watch?utm_content=DAGhlfocPN4&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">小貓咪</a>
+
+
+</div>
+ 
+   
 </body>
 </html>
